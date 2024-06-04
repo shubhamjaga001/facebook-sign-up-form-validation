@@ -1,0 +1,164 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+form{
+    margin: 100px auto;
+    padding: 15px;
+    height: 320px;
+    width: 38%;
+    box-shadow: 0px 5px 10px grey;
+    border-radius: 15px;
+    position: relative;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border: none;
+    border-top: 0.5px solid #ccc;
+}
+
+#firstname, #surname{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 49%;
+    margin-top: 10px;
+    background-color: #F5F6F7;
+    box-shadow: inset 0px -2px 5px grey;
+}
+
+#email, #password{
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 99%;
+    margin-top: 10px;
+    background-color: #F5F6F7;
+    box-shadow: inset 0px -2px 5px grey;
+}
+
+input:focus{
+    outline: none;
+}
+#first_warning{
+    width: 20px;
+    position: absolute;
+    top: 107px;
+    left: 215px;
+    display: none;
+}
+
+#name_image{
+    position: absolute;
+    width: 200px;
+    left: -207px;
+    top: 95px;
+    display: none;
+}
+
+#surname_warning{
+    position: absolute;
+    width: 20px;
+    bottom: 192px;
+    left: 460px;
+    display: none;
+}
+
+#surname_image{
+    position: absolute;
+    width: 200px;
+    left: 254px;
+    top: 135px;
+    display: none;
+
+}
+
+#mobile_warning{
+    position: absolute;
+    width: 20px;
+    top: 155px;
+    left: 455px;
+    display: none;
+}
+
+#mobile_image{
+    width: 400px;
+    position: absolute;
+    top: 140px;
+    left: -407px;
+    display: none;
+}
+
+
+
+#icon{
+    position: absolute;
+    top: 207px;
+    left: 450px;
+    cursor: pointer;
+}
+
+#btn{
+    height: 40px;
+    width: 200px;
+    margin: 10px auto 0px 150px;
+    background-color: #239706;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#invalid-password{
+    color: red;
+    position: absolute;
+    left: 51px;
+    display: none;
+}
+
+#btn{
+    height: 40px;
+    width: 200px;
+    margin: 10px auto 0px 150px;
+    background-color: #239706;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#invalid-password{
+    color: red;
+    position: absolute;
+    left: 51px;
+    display: none;
+    top: 2px;
+    cursor: default;
+}
+
+#correct-password{
+    color: #239706;
+    position: absolute;
+    left: 51px;
+    display: none;
+    top: 2px;
+}
